@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gaap{
+    padding-top: 5rem;
+}
+.logo img{
+    height: 50px;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu li a:hover{
+    background-color:green;
+    color:white;
+}
+.socil_icone i{
+    font-size: 25px;
+    color: #ffffff;
+}
+.socil_icone i:hover{
+    color:rgb(0, 0, 0);
+    background-color: #f96767;
+}
+.bg-icon i{
+    background-color: green;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    /* border-radius: 50px; */
+    border-radius: 0px 10px 0px 10px;
+}
+.banner{
+    background-image: url(image/hero-bg.jpg);
+    height: 630px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0px 0px 90px 90px;
+}
+.text-aria{
+    margin-top:20%;
+}
+.Shop{
+    background-color: #fc5f5f;
+    padding: 10px 40px 10px 40px;
+    border: 0;
+    border-radius: 20px;
+}
+.Shop:hover{
+    background-color: green;
+}
+.text-aria h1{
+    font-size: 75px;
+}
+.Shop a{
+    text-decoration: none;
+    color: white;
+}
+.plant-icon i{
+    float: left;
+    font-size: 30px;
+    color: green;
+}
+
+.items h4,p{
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px){
+    .banner{
+        background-position: center center;
+        background-size: cover;
+        border-radius: 0px 0px 40px 40px;
+    }
+    .text-aria h1{
+        font-size: 24px;
+    }
+    .banner{
+        height: 250px;
+    }
+}

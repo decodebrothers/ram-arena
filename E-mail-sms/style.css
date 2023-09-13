@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #01203F;
+
+}
+.logo-img img{
+    height: 50px;
+}
+
+.icon{
+    font-size: 25px;
+    color: #ffff;
+}
+
+.banner-part{
+    background-color:#4D9BCB ;
+    padding: 50px;
+}
+.social{
+    color: #01203F;
+    font-weight: bold; 
+    padding-bottom: 3rem;
+}
+
+.social-img img{
+    height: 450px;
+}
+
+
+.social-imge img{
+    height: 350px;
+}
+
+.digital{
+    margin-left: 14rem;
+}
+
+.paragraph{
+    color: black;
+}
+
+.paragraph p{
+    padding: 10px;
+}
+.hedding h1{
+    color: #01203F;
+    font-weight: bold; 
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.item{
+    background-color:#01203F;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    height: 100px;
+    font-size: 23px;
+}
+
+.cocal{
+    background-color:#4D9BCB;
+    margin-top: 5rem;
+}
+
+
+.sarch p{
+    font-size: 20px;
+}
+
+.injan{
+    margin-top: 5rem;
+}
+
+.carrier{
+    background-color:#01203F;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    height: 80px;
+    font-size: 23px;
+}
+
+.footer{
+    background-color:#4D9BCB;
+    height: 200px;
+    margin-top: 5rem;
+    
+}
+
+.footer-hedding{
+    padding-top: 4rem;
+    line-height: 2;
+}
+
+
+
+@media only screen and (max-width: 425px){
+    .social-img img {
+        display: none;
+    }
+
+    .social-imge img{
+        display: none;
+    }
+    .digital{
+        margin-left: 0;
+    }
+    .social{
+        color: #01203F;
+        font-weight: bold; 
+        padding-bottom: 1rem;
+    }
+    .paragraph p{
+        padding: 0px;
+    }
+    .banner-part{
+        background-color:#4D9BCB ;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .social-img img {
+        display: none;
+    }
+    .social-imge img{
+        display: none;
+    }
+    .digital{
+        margin-left:0;
+    }
+    .social{
+        color: #01203F;
+        font-weight: bold; 
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+    .paragraph p{
+        padding: 0px;
+    }
+    .paragraph h1{
+        font-size: 40px;
+    }
+    .banner-part{
+        background-color:#4D9BCB ;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .social-img img{
+        height: 380px;
+    }
+    .social-imge img{
+        height: 200px;
+    }
+ 
+
+}
+

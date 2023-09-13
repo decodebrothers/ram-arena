@@ -1,0 +1,867 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+[class*="col-"] {
+    float: left;
+
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.header1 {
+    background-color: #052f48;
+    padding: 10px;
+}
+
+i {
+    color: #4f86f9;
+    float: left;
+    margin-left: 80px;
+}
+
+h6 {
+    color: #ffffff;
+    margin-left: 100px;
+    font-size: 15px;
+}
+
+.icon {
+    margin-left: 8%;
+}
+
+.icon a {
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #4f86f9;
+    padding: 10px;
+    margin: 2px;
+
+}
+
+.logo h1 {
+    margin: 20px 100px 0;
+}
+
+spam {
+    color: #4f86f9;
+}
+
+.logo P {
+    margin-left: 100PX;
+    font-size: 14PX;
+}
+
+.navigation ul {
+    margin-left: 25%;
+}
+
+li {
+    float: left;
+    margin: 40px 30px 0;
+    list-style: none;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    margin-top: 20px;
+}
+
+.banner2 {
+    margin-left: 8.33%;
+    margin-top: 100px;
+}
+
+
+.one img {
+    width: 60px;
+}
+
+.one_1 img {
+    width: 60px;
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+
+.two img {
+    width: 60px;
+}
+
+.two_2 img {
+    width: 60px;
+}
+
+.one {
+    background-color: rgb(167, 167, 193);
+    padding: 50px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+
+
+.one:hover {
+    background-color: #4f86f9;
+    color: #ffffff;
+}
+
+
+
+
+.one_1 {
+    background-color: #4f86f9;
+    margin-left: 20px;
+    padding: 50px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+
+
+.two {
+    background-color: rgb(167, 167, 193);
+    padding: 50px;
+    border-radius: 8px;
+
+}
+
+.two:hover {
+    background-color: #4f86f9;
+    color: #ffffff;
+}
+
+.two_2 {
+    background-color: rgb(167, 167, 193);
+    margin-left: 20px;
+    border-radius: 8px;
+    padding: 50px;
+}
+
+.two_2:hover {
+    background-color: #4f86f9;
+    color: #ffffff;
+}
+
+
+.left-left h2 {
+    margin-top: 10px;
+}
+
+.left-left p {
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.left-right h2 {
+    margin-top: 10px;
+}
+
+.left-right p {
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.right {
+    margin-left: 50px;
+    margin-top: 120px;
+}
+
+.right h4 {
+    margin-bottom: 10px;
+}
+
+.right h1 {
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+.right p {
+    line-height: 30px;
+}
+
+button {
+    background-color: #4f86f9;
+    margin-top: 20px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: black;
+    color: #ffffff;
+}
+
+
+
+
+.banner3 {
+    background-image: url(image/pagespeed..jpg);
+    padding: 200px;
+    background-size: cover;
+    margin-top: 10%;
+    float: left;
+}
+
+.text {
+    margin-left: 50%;
+}
+
+.text h5 {
+    margin-bottom: 10px;
+}
+
+.text h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.text p {
+    line-height: 30px;
+}
+
+.SERVICES {
+    text-align: center;
+    margin: 10% 29%;
+}
+
+.SERVICES h4 {
+    margin-bottom: 15px;
+}
+
+.SERVICES h1 {
+    line-height: 60px;
+    font-size: 40px;
+}
+
+.services {
+    margin-left: 50px;
+    text-align: center;
+}
+
+.services h2 {
+    margin-top: 20px;
+}
+
+.services p {
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.services1 {
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.services1 h2 {
+    margin-top: 20px;
+}
+
+.services1 p {
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.Planning img {
+    width: 40%;
+    background-color: rgb(200, 211, 211);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.Management img {
+    width: 40%;
+    background-color: rgb(200, 211, 211);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.Loan img {
+    width: 40%;
+    background-color: rgb(200, 211, 211);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.Consulting img {
+    width: 40%;
+    background-color: rgb(200, 211, 211);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.Insurance img {
+    width: 40%;
+    background-color: rgb(200, 211, 211);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.Retirement img {
+    width: 40%;
+    background-color: rgb(200, 211, 211);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.STUDIES {
+    margin-left: 30%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.STUDIES h4 {
+    margin-bottom: 15px;
+}
+
+.STUDIES h1 {
+    line-height: 60px;
+    font-size: 40px;
+}
+
+.gallery {
+    margin-top: 50px;
+    overflow:hidden;
+}
+
+.gallery-1 {
+    background-image: url(image/gallery-1.jpg);
+    padding: 150px;
+    background-size: cover;
+    
+}
+
+.gallery-2 {
+    background-image: url(image/gallery-2.jpg);
+    padding: 150px;
+    background-size: cover;
+}
+
+.gallery-3 {
+    background-image: url(image/gallery-3.jpg);
+    padding: 150px;
+    background-size: cover;
+}
+
+.gallery-4 {
+    background-image: url(image/gallery-4.jpg);
+    padding: 150px;
+    background-size: cover;
+}
+
+.gallery-1:hover {
+    transform: scale(1.2);
+    transition: 2s;
+    z-index: 2;
+}
+
+.gallery-2:hover {
+    transform: scale(1.2);
+    transition: 2s;
+    z-index: 2;
+}
+
+.gallery-3:hover {
+    transform: scale(1.2);
+    transition: 2s;
+    z-index: 2;
+}
+
+.gallery-4:hover {
+    transform: scale(1.2);
+    transition: 2s;
+    z-index: 2;
+}
+
+.contenar {
+    background-image: url(image/xbg_3.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.bgcolor {
+    background-color: #4f86f9;
+    opacity: .9;
+    padding: 80px;
+}
+
+.REVIEWS {
+    color: #ffffff;
+    text-align: center;
+    margin-left: 20%;
+}
+
+.REVIEWS h1 {
+    font-size: 50PX;
+}
+
+.year {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.year h1 {
+    font-size: 50px;
+}
+
+.year h5 {
+    margin-top: 10px;
+}
+
+.MINDS {
+    margin: 10% 35%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.MINDS h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.img {
+    padding: 5px;
+}
+
+
+.image1 {
+    background-image: url(image/xstaff-1.jpg);
+    border: 10px solid #ffffff;
+    background-size: cover;
+    padding: 80px;
+    position: absolute;
+    border-radius: 100px;
+    z-index: 99;
+    margin-left: 6%;
+}
+
+.image2 {
+    background-image: url(image/xstaff-2.jpg);
+    border: 10px solid #ffffff;
+    background-size: cover;
+    padding: 80px;
+    position: absolute;
+    border-radius: 100px;
+    z-index: 99;
+    margin-left: 6%;
+}
+
+.image3 {
+    background-image: url(image/xstaff-3.jpg);
+    border: 10px solid #ffffff;
+    background-size: cover;
+    padding: 80px;
+    position: absolute;
+    border-radius: 100px;
+    z-index: 99;
+    margin-left: 6%;
+}
+
+.image4 {
+    background-image: url(image/xstaff-4.jpg);
+    border: 10px solid #ffffff;
+    background-size: cover;
+    padding: 80px;
+    position: absolute;
+    border-radius: 100px;
+    z-index: 99;
+    margin-left: 6%;
+}
+
+.image5 {
+    background-image: url(image/xstaff-5.jpg);
+    border: 10px solid #ffffff;
+    background-size: cover;
+    padding: 80px;
+    position: absolute;
+    border-radius: 100px;
+    z-index: 99;
+    margin-left: 6%;
+}
+
+.image6 {
+    background-image: url(image/xstaff-6.jpg);
+    border: 10px solid #ffffff;
+    background-size: cover;
+    padding: 80px;
+    position: absolute;
+    border-radius: 100px;
+    z-index: 99;
+    margin-left: 6%;
+}
+
+.image7 {
+    background-image: url(image/xstaff-7.jpg);
+    border: 10px solid #ffffff;
+    background-size: cover;
+    padding: 80px;
+    position: absolute;
+    border-radius: 100px;
+    z-index: 99;
+    margin-left: 6%;
+}
+
+.image8 {
+    background-image: url(image/xstaff-8.jpg);
+    border: 10px solid #ffffff;
+    background-size: cover;
+    padding: 80px;
+    position: absolute;
+    border-radius: 100px;
+    z-index: 99;
+    margin-left: 6%;
+}
+
+.text1 {
+    position: relative;
+    padding: 50px;
+    margin-top: 130px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.text1:hover {
+    background-color: #4f86f9;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+
+.test {
+    text-align: center;
+    margin: 9% 32%;
+    line-height: 40px;
+}
+
+.scott1,
+.scott2,
+.scott3 {
+    padding: 20px;
+    background-color: rgb(227, 242, 255);
+    margin-left: 90px;
+    font-size: 17px;
+    line-height: 30px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.scott2 {
+    background-color: #4f86f9;
+    color: #ffffff;
+}
+
+.imageb img {
+    width: 25%;
+    border-radius: 60px;
+    margin: 10px;
+    float: left;
+}
+
+.mane {
+    margin-top: 25px;
+    line-height: 32px;
+}
+
+.OUR-BLOG {
+    margin: 9% 32%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.imaga {
+    background-image: url(image/gallery-2.jpg);
+    padding: 150px;
+    margin: 0 50px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.footer{
+    height: 400px;
+    background-color: #4f86f9;
+}
+
+
+
+
+
+
+
+
+
+/* For desktop: */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .header1 {
+        width: 100%;
+
+    }
+
+    i {
+        margin-left: 0;
+    }
+
+    h6 {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .navigation ul {
+        margin-left: 0;
+    }
+
+    .logo h1 {
+        margin: 0;
+    }
+
+    .logo P {
+        margin-left: 0;
+
+    }
+
+    .icon {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .banner2 {
+        margin-left: 0;
+
+    }
+
+
+
+    .one img {
+        width: 100px;
+    }
+
+    .one_1 img {
+        width: 100px;
+
+    }
+
+    .two img {
+        width: 100px;
+    }
+
+    .two_2 img {
+        width: 100px;
+    }
+
+    .two {
+        margin-bottom: 20px;
+    }
+
+
+    .one_1 {
+        margin-left: 0;
+    }
+
+
+    .two_2 {
+        margin-left: 0;
+    }
+
+
+    .left-right p {
+        margin-top: 0;
+    }
+
+    .right {
+        margin-left: 0;
+    }
+
+
+
+    .text {
+        margin-left: 0;
+    }
+
+    .banner3 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .text {
+        width: 100%;
+        margin-top: 50px
+    }
+
+    .SERVICES {
+        margin: 0;
+    }
+
+    .STUDIES {
+        margin-left: 0;
+    }
+
+    .services {
+        margin-left: 0;
+    }
+
+    .services1 {
+        margin-left: 0;
+    }
+
+    .MINDS {
+        margin-left: 0;
+    }
+
+    .REVIEWS {
+        margin-left: 0;
+    }
+
+    .gallery-1:hover {
+        transform: scale(0.);
+        transition: 2s;
+        z-index: 0;
+    }
+
+    .gallery-2:hover {
+        transform: scale(0.);
+        transition: 2s;
+        z-index: 0;
+    }
+
+    .gallery-3:hover {
+        transform: scale(0.);
+        transition: 2s;
+        z-index: 0;
+    }
+
+    .gallery-4:hover {
+        transform: scale(0.);
+        transition: 2s;
+        z-index: 0;
+    }
+
+    .image1 {
+        margin-left: 30%;
+    }
+
+    .image2 {
+        margin-left: 30%;
+    }
+
+    .image3 {
+        margin-left: 30%;
+    }
+
+    .image4 {
+        margin-left: 30%;
+    }
+
+    .image5 {
+        margin-left: 30%;
+    }
+
+    .image6 {
+        margin-left: 30%;
+    }
+
+    .image7 {
+        margin-left: 30%;
+    }
+
+    .image8 {
+        margin-left: 30%;
+    }
+
+    .scott1,
+    .scott2,
+    .scott3 {
+        margin-left: 0;
+    }
+
+    .test {
+        margin: 0;
+    }
+
+    .imageb img {
+        margin: 0;
+    }
+    
+    .OUR-BLOG {
+        margin: 9% 0;
+        text-align: center;
+        line-height: 40px;
+    }
+
+
+}
+
+

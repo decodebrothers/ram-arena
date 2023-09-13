@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Sans Tagbanwa', sans-serif;
+    font-family: 'Noto Serif', serif;
+}
+
+.gaap{
+    margin-top: 5rem;
+}
+.Wrapper{
+    width: 100%;
+}
+.navbar-brand img{
+    width: 100%;
+    height: 80px;
+}
+li{
+    font-size: 20px;
+}
+.icon{
+    padding: 5px  8px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: green;
+}
+.text-arya h1{
+    font-size: 5rem;
+}
+.conatant{
+    background-color: #fff3ed;
+}
+.lap-img{
+    position: relative;
+}
+samp{
+    color: orange;
+    font-weight: bold;
+}
+.text-group h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.btn-warning{
+    color: white;
+}
+.input-group{
+    width: 80%;
+}
+.start{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.circle2{
+    background-color:white;
+    width: 18%;
+    height: 35%;
+    border-radius:60%;
+    position: absolute;
+    z-index: 999;
+    bottom: 0;
+    top: 57rem;
+    left: 25%;
+}
+.circle2 h1{
+    margin-top: 30%;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+.box-6{
+    box-shadow: 5px 5px 10px #191b1f, -5px -5px 10px #9e9622;  
+}
+.text{
+    background-color: #fff3ed;
+}
+.box{
+    background-color: white;
+}
+.for-4{
+ 
+    overflow: hidden;
+}
+.for-4 img{
+    width: 100%;
+    transition: 3s;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.for-4 img:hover{
+    transform: scale(1.1);
+}
+
+.box img{
+    float: left;
+    margin-right: 15px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+
+}
+.logo-part img{
+    width: 100%; 
+    height: 80px;
+}
+li{
+    list-style: none;
+    font-size: 1rem;
+    line-height: 2;
+}
+
+li i{
+    color: orange;
+}
+
+
+.box-6 i{
+    font-size: 40px;
+    margin-top: 1%;
+    padding: 5%;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.footer-img img{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 320px){
+    .text-arya h1{
+        font-size: 3rem;
+    }
+
+}
+
+@media only screen and (max-width: 425px){
+    .lap-img{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .image-group img{
+        width: 100%;
+    }
+    .lap-img{
+        width: 90%;
+    }
+    .circle2{
+        display: none;
+    }
+    .for-4 img{
+        width: 100%;
+    }
+    .text-arya h1{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .text-group h2{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .start{
+        font-size: 35px;
+        font-weight: bold;
+    }
+}

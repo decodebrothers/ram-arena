@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color:#FFF5F1;
+    height: 550px;
+}
+
+.btn_1{
+    border: none;
+    background-color: #ffffff;
+    color: black;
+}
+
+.text{
+    margin-top: 10%;
+}
+
+.container_img img{
+    height: 400px;
+    margin-left: 50px;
+    position: absolute;
+    
+}
+
+button{
+    background-color: #524FD5;
+    border: none;
+    padding: 10px 50px 10px 50px;
+    border-radius: 50px;
+    color: #ffffff;
+}
+
+.bgcolor1{
+    background-color: #844f39;
+    border-radius: 50px;
+    width: 30%;
+    position: relative;
+
+}
+
+.headding_1{
+    margin-top:10%;
+}
+
+.image_one img{
+    margin-top: 100px;
+}
+
+.text_1{
+    margin-top: 30px;
+    line-height: 2;
+}
+
+.headding_2{
+    margin-top: 10%;
+}
+
+
+.STUDIYING{
+    margin-top: 10%;
+}
+
+.img-1{
+   width: 25rem;
+}
+
+.multiple-items .card{
+    border: 0;
+}
+
+.card:hover{
+    background-color: #524FD5;
+    border-radius: 60px;
+    color: #ffffff;
+}
+.card{
+    max-width: 380px;
+    margin: auto;
+}
+.card-img-top{
+    padding: 10px;
+}
+
+.paragrap{
+    margin-top: 10%;
+    line-height: 2;
+}
+
+h5{
+    line-height: 2;
+}
+
+.more_info{
+    margin-top: 10%;
+}
+
+.lesson{
+    margin-top: 10%;
+}
+
+.element1{
+    top: 0%;
+    left: -50%;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    z-index: 11;
+}
+
+.accordion-body{
+    background-color: #524FD5;
+    border-radius: 20px;
+}
+
+.element2{
+    
+}
+
+.element3{
+    top: 40%;
+    width: 90%;
+}
+
+.bgcolor_btn{
+
+    padding: 5px;
+    border-radius: 50px;
+}
+.email{
+    border: 0;
+    margin: auto;
+    margin-top: 1rem;
+
+}
+
+.send{
+    background-color: #3227ff;
+    margin-top: 0.5rem;
+}
+
+.join li{
+    list-style: none;
+    line-height:2;
+}
+
+.footer{
+    margin-top: 10%;
+}
+
+
+.slick-prev{
+    top: 38rem;
+    left: 5rem;
+}
+
+.slick-next{
+    top:38rem;
+    right: 72rem;
+}
+
+.button{
+    width:50%;
+}
+
+
+
+
+
+@media only screen and (max-width: 500px){
+
+    .container_img img{
+        height: 300px;
+        margin-left: 50px;
+        
+    }
+
+    .headding_1{
+        margin-top: 9rem;
+    }
+
+    .STUDIYING{
+        margin-top: 5rem;
+    }
+    .img-1{
+        width: 100%;
+    }
+    
+    .slick-prev{
+        top: 23rem;
+        left: 2rem;
+    }
+
+    .slick-next{
+        top:23rem;
+        right: 10rem;
+    }
+}

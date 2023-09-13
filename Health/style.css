@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gaap{
+    margin-top: 10rem;
+}
+
+.thamb-image{
+    position: relative;
+}
+.thamb1 img{
+    width: 90%;
+}
+.thamb2{
+    position: absolute;
+    left: 34.5%;
+    top: 25%;
+
+}
+.thamb2 img{
+    width:90%;
+}
+
+.position-box{
+    position: relative;
+}
+.image-position img{
+    width: 70%;
+
+}
+.image-position img{
+    position: absolute;
+    z-index: 3;
+    bottom: 0.1%;
+    left: 16%;
+}
+.from{
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .thamb1 img{
+        width: 100%;
+    }
+    .thamb2 img{
+        width:100%;
+    }
+    
+}

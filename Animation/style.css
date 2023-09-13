@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    word-wrap: break-word;
+}
+
+.gaap{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+.navbar{
+    background-color: #3AD1C7;
+
+}
+.logo-img img{
+    height: 50px;
+}
+
+.icon{
+    font-size: 25px;
+    color: #ffff;
+}
+
+.header{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+}
+
+
+.banner-img{
+    width: 100%;
+    padding-bottom: 3rem;
+    padding-top: 4.5rem;
+}
+
+.banner{
+    position: relative;
+    z-index: 1;
+}
+
+.animation-hedding h1{
+    position: absolute;
+    z-index: 2;
+    top: 36%;
+    line-height: 1.5;
+    color: #ffff;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.hedding h2{
+    padding: 10px;
+    text-align: center;
+}
+
+.hedding{
+    border-radius: 20px;
+    color: #ffff;
+    background: linear-gradient(272.32deg, #00FFEE 1.33%, #4596C4 99.25%) padding-box,
+    linear-gradient(to right, rgb(138, 52, 126), rgb(248, 1, 129)) border-box;
+    border-radius:20px;
+    border: 6px solid transparent;
+}
+
+.paragraph p{
+    margin: auto;
+}
+
+.paragraph{
+    margin: auto;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 100;
+    background: linear-gradient(#3AD1C7, #3AD1C7) padding-box,
+    linear-gradient(to right, darkblue, darkorchid) border-box;
+    border-radius:20px;
+    border: 6px solid transparent;
+    background-color: #3AD1C7;
+}
+
+.box-img img{
+    height:300px;
+    border-radius: 20px;
+}
+
+.futnote {
+    font-size: 20px;
+}
+
+.link{
+    font-size: 20px;
+}
+.link a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+
+    .animation-hedding h1{
+        position: absolute;
+        z-index: 2;
+        top: 17%;
+        line-height: 1.5;
+        color: #ffff;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .link{
+        font-size: 17px;
+    }
+
+    .box-img img{
+       display: none;
+    }
+
+    .animation-hedding h1{
+        padding-top: 5rem;
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+    .box-img img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+
+    .hedding h2{
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .animation-hedding h1{
+        position: absolute;
+        z-index: 2;
+        top: 12%;
+        line-height: 1.5;
+        color: #ffff;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .link{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 426px){
+
+
+    .banner-img{
+        width: 100%;
+        padding-bottom: 1.5rem;
+        padding-top: 4.5rem;
+    }
+
+    .animation-hedding h1{
+        padding-top: 5rem;
+    }
+
+    .gaap{
+        margin-top: 40px;
+        margin-bottom: 5rem;
+    }
+
+    .paragraph-container{
+        width: 100%;
+        padding: 5%;
+    }
+
+
+}
+
+@media only screen and (max-width: 1024px){
+    .box-img img{
+        height: 250px;
+    }
+    
+    .hedding h2{
+        font-size: 20px;
+    }
+
+    .box-img img{
+        margin-top: 2rem;
+    }
+}
+
+

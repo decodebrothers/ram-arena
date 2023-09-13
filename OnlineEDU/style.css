@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    overflow: hidden;
+}
+.gaap{
+    margin-top: 7rem;
+
+}
+
+.banner{
+    background-image: url(image/h1_hero.png.webp);
+
+}
+
+.heromen-image img{
+    width: 100%;
+    height: auto;
+}
+.left-part p{
+    color: #2d3092;
+    font-weight:bold;
+}
+
+
+.left-part h1{
+    font-size: 65px;
+    font-weight:700;
+}
+.get{
+    padding: 15px 39px;
+    animation-delay: 0.8s;
+}
+.get:hover{
+    background-color: #2d3092;
+}
+.card-box{
+    border: 1px solid rgb(201, 200, 200);
+    padding: 62px 60px;
+    margin-bottom: 5%;
+    line-height: 2;
+}
+.card-box i{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.card-box:hover{
+    background-color:#2d3092;
+    color: white;
+}
+.btn-find{
+    padding: 15px 50px 15px 50px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 0;
+    background-color: #2d3092;
+    color: white;
+    margin-bottom: 20%;
+    border-radius: 10px;
+}
+.btn-find1{
+    padding: 15px 50px 15px 50px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 0;
+    background-color: #2d3092;
+    color: white;
+    margin-bottom: 8%;
+    border-radius: 10px;
+}
+.btn-find2{
+    padding: 15px 50px 15px 50px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 0;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    margin-bottom: 8%;
+    border-radius: 10px;
+}
+.btn-find3{
+    padding: 15px 40px 15px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 0;
+    background-color: #2d3092;
+    color: rgb(255, 255, 255);
+    margin-bottom: 8%;
+    border-radius: 10px;
+}
+.btn-find:hover{
+    background-color: blue;
+}
+.btn-find1:hover{
+    background-color: blue;
+}
+.btn-find2:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.btn-find3:hover{
+    background-color: blue;
+}
+.btan{
+    margin-top: 10%;
+}
+.topice{
+    margin-bottom: 20%;
+}
+
+.topics1 i{
+    font-size: 60px;
+    color: #1e9d78;
+}
+.topics1 h2{
+    color: #1e9d78;
+    margin-bottom: 50px;
+
+}
+.topics2 i{
+    font-size: 60px;
+    color:#2d3092;
+}
+.topics2 h2{
+    color:#2d3092;
+    margin-bottom: 50px;
+
+}
+.topics3 i{
+    font-size: 60px;
+    color:#1e9d78;
+}
+.topics3 h2{
+    color:#1e9d78;
+    margin-bottom: 50px;
+
+}
+.topics4 i{
+    font-size: 60px;
+    color: #f05510;
+}
+.topics4 h2{
+    color: #f05510;
+    margin-bottom: 50px;
+
+}
+.hedding-course{
+    margin-bottom: 7%;
+}
+.hedding-course p{
+    color:#3b40d2;
+    font-weight: 700;
+}
+.hedding-course h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.card-border{
+    border: 1px solid rgb(176, 168, 168);
+    margin-bottom: 5%;
+}
+.courser-rating{
+    float: left;
+}
+
+.courser-rating i{
+    color: #FBBA42;
+    font-size: 12px;
+}
+
+
+.Design{
+    overflow: hidden;
+    margin-bottom: 5%;
+
+}
+
+.Design img{
+    transition: 3s;
+    width: 100%;
+}
+
+.Design img:hover{
+    transform: scale(1.1);
+}
+
+.Faculty{
+    margin-bottom: 5%;
+    overflow:hidden;
+}
+.Faculty img{
+    width: 100%;
+    transition: 3s;
+}
+.Faculty img:hover{
+    transform: scale(1.1);
+}
+
+.properties{
+    overflow: hidden;
+    margin-bottom: 5%;
+    position: relative;
+}
+.bg-overlay{
+    background-color: #275dc2;
+    width: 15%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    z-index: 3;   
+    top: 77%;
+    font-size: 20px;
+    padding: 2%;
+}
+.properties img{
+    width: 100%;
+    transition: 3s;
+
+}
+.properties img:hover{
+    transform: scale(1.1);
+}
+.design-soft{
+    padding: 8%;
+}
+
+span{
+    padding-left: 60%;
+}
+.bag-clor{
+    background-color: #343794;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.Faculty-card{
+    border: 1px solid rgb(148, 143, 143);
+    background-color: white;
+    margin-bottom: 5%;
+}
+.about-image img{
+    width: 100%;
+    padding: 2%;
+}
+.faculty-name{
+    padding: 7%;
+}
+.more-about ul li{
+    list-style: none;
+    line-height: 3;
+}
+.more-about ul li i{
+    color: #294578;
+    margin-right: 3%;
+    font-size: 25px;
+}
+.more-about h5{
+    color: #3b40d2;
+    font-size: 15px;
+    margin-bottom: 5%;
+}
+ul{
+    padding-left: 0;
+}
+.card{
+    border: 0;
+    background-color: transparent;
+    color: white;
+
+}
+.card img{
+    width: 20%;
+    margin: auto;
+}
+.slider{
+    background-color: #2d3092;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.card-body p{
+    font-size: 20px;
+}
+.card-ratting{
+    color: #FBBA42;
+}
+
+.slick-prev:before{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.slick-next:before{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.Blog p{
+    color: #3b40d2;
+    font-weight: 700;
+}
+.Blog h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.input-group{
+    padding-bottom: 70px;
+}
+.footer{
+    background-color:#0b0b1d;
+    padding-top:130px ;
+    padding-bottom:150px ;
+}
+.footer-menu ul li{
+    list-style: none;
+    line-height: 2.8;
+}
+.menu-list{
+    margin-top: 8%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+    .heromen-image img{
+        display: none;
+    }
+    .left-part h1{
+        font-size: 50px;
+    }
+    .card-box{
+        padding: 40px 40px;
+    }
+    .banner{
+        padding: 30px;
+    }
+    .slick-prev:before{
+        display: none;
+    }
+    .slick-next:before{
+        display: none;
+    }
+    .more-about h1{
+        font-size: 49px;
+    }
+    .bg-overlay{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:426px){
+
+    .banner{
+        padding: 5%;
+    }
+    .left-part h1{
+        font-size: 24px;
+    }
+    .card-box{
+        padding: 40px 30px;
+    }
+    .hedding-course h1{
+        font-size: 27px;
+    }
+    .Blog h1{
+        font-size: 27px;
+    }
+    .more-about h1{
+        font-size: 27px;
+    }
+}
+@media only screen and (max-width:320px){
+    .card-box{
+        padding: 40px 20px;
+    }
+}
+@media only screen and (max-width:1024px){
+    .faculty-name{
+        padding: 0;
+    }
+    .bg-overlay{ 
+        top: 71%;
+    }
+  
+}
+

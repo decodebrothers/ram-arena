@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #060B27;
+}
+.banner-part{
+    margin-top: 7rem;
+}
+.text-arya{
+    font-family: 'Open Sans';
+}
+
+.text-arya p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 22px;
+}
+span{
+    color: #EF9000;
+}
+.lets{
+    box-shadow: 5px 5px 4px #6c6969;
+    color: white;
+}
+
+.sercol{
+    background-color: #0872BF;
+    width: 80%;
+    border-radius: 500px;
+    text-align: center;
+    box-shadow: 4px 4px 4px 4px  #848383;
+}
+.images img{
+    border-radius: 500px;
+}
+.my{
+    float: left;
+    font-size: 25px;
+}
+.cantent{
+    margin-top: 7rem;
+}
+.boss{
+    padding: 50px;
+}
+
+.borders{
+    border: 5px solid rgb(67, 109, 67);
+    border-radius: 20px;
+    background-image: linear-gradient(#5560c8 , #2A3171);
+    margin-top: 20px;
+}
+
+.borders:hover{
+    background-image: linear-gradient(#2b3ac7 , #48277c);
+    border: 5px solid rgba(243, 9, 33, 0.563);
+}
+
+
+
+
+
+.gaap{
+    margin-top: 5rem;
+}
+
+.text-part{
+    margin-top: 2rem;
+}
+.text-part p{
+    margin-top: 1rem;
+    line-height: 2;
+}
+
+.slider{
+    margin-top: 9rem;
+}
+
+.card{
+    border: 2px solid green;
+    max-width: 400px;
+    margin: auto;
+    background-color: unset;
+    box-shadow: 0px 4px 4px 8px rgba(182, 199, 214, 0.1);
+    border-radius: 20px;
+}
+
+.card img{
+    padding: 10px;
+}
+
+
+
+.slick-prev:before{
+   display: none;
+}
+
+.slick-next:before{
+    display: none;
+}
+
+.slick-prev{
+    top: 120%;
+    left: 45%;
+}
+.slick-next{
+    top: 120%;
+    right: 45%;
+}
+.back-img{
+    background-image: url(image/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 9rem;
+    padding: 100px;
+}
+.setting-icon img{
+    height: 80px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 426px){
+
+    .sercol{
+        width:100%;
+    }
+
+    .images img{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 798px){
+
+    .sercol{
+        width:100%;
+    }
+
+    .images img{
+        width: 100%;
+    }
+    .socile-img img{
+        width: 80%;
+    }
+
+}
+
+
+
+
